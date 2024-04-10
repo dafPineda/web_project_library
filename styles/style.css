@@ -309,9 +309,7 @@
   margin: 0;
   margin: 30px 30px 10px;
   justify-content: center;
-  font-weight: bold;
   font-style: italic;
-  font-size: 20px;
 }
 
 .card__text {
@@ -328,9 +326,7 @@
   line-height: 20px;
   color: #838383;
   /* Parte final */
-  margin: 0 30px 30px;
-  margin-top: auto;
-  margin-right: auto;
+  margin: auto 30px auto 30px;
 }
 
 .membership {
@@ -395,7 +391,6 @@
   /**/
   display: flex;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .about__title {
