@@ -1,9 +1,10 @@
-# Proyecto 3: Biblioteca Triple Peaks
+# Proyecto 1: Librería Triple Peaks
 
-La página web de la Biblioteca Triple Peaks es el tercer proyecto en el programa de Desarrollo web de TripleTen. Fue creado utilizando HTML y CSS, con base en un brief de diseño.
+La página web de la Librería Triple Peaks es el primer proyecto en el programa de Ingeniería de software en Triple Ten. Fue creado utilizando HTML y CSS, con base en un informe de diseño.
 
 ## Características del proyecto
 
-- HTML5 semántico
-- Flexbox
-- Posicionamiento
+-	HTML5 semántico
+-	Flexbox
+-	Posicionamiento
+-	Apilamiento vertical con z-index
