@@ -2,7 +2,7 @@
   /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
+
   font-family: "Heveltica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -30,6 +30,7 @@
 }
 
 .nav__logo {
+  margin: 0;
   width: 57px;
   height: 80px;
 }
@@ -40,8 +41,9 @@
   /*Mi codigo*/
   display: flex;
   column-gap: 20px; /*Pone un espaciado*/
-  list-style: none; /*Quita el subrayado y los puntos de istas*/
+  list-style-type: none; /*Quita el subrayado y los puntos de istas*/
   padding: 0;
+  color: #000000;
 }
 
 .nav__link {
@@ -51,22 +53,25 @@
 }
 
 .nav__link:hover {
-  color: #1f69c9;
+  color: #2f80ed;
+}
+.header__content {
+  display: flex;
+  margin-top: 128px;
+
+  padding: 0;
 }
 
 .header__title {
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0;
-  margin-top: 128px;
   max-width: 601px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
   margin-top: 32px;
   max-width: 532px;
 }
@@ -313,7 +318,6 @@
 }
 
 .card__text {
-  margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
   /* Parte final */
@@ -321,7 +325,6 @@
 }
 
 .card__footer {
-  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
