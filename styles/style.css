@@ -2,7 +2,7 @@
   /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
+  margin: 0;
   font-family: "Heveltica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -31,7 +31,7 @@
 
 .nav__logo {
   margin: 0;
-  width: 57px;
+  width: 58px;
   height: 80px;
 }
 
@@ -58,7 +58,6 @@
 .header__content {
   display: flex;
   margin-top: 128px;
-
   padding: 0;
 }
 
@@ -66,14 +65,14 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  max-width: 601px;
+  max-width: 635px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
-  max-width: 532px;
+  max-width: 515px;
 }
 
 .header__image {
@@ -262,6 +261,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  font-weight: 400;
   color: white;
 }
 
@@ -290,6 +290,7 @@
 .card {
   background-color: #fff;
   border-radius: 6px;
+  padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   list-style: none;
   width: 360px;
@@ -301,9 +302,9 @@
 .card__content {
   width: 100%;
   height: 100%;
-  flex-direction: column;
   /**/
   display: flex;
+  flex-direction: column;
   font-family: "Heveltica Neue", "Arial", sans-serif;
 }
 
@@ -321,10 +322,11 @@
   font-size: 16px;
   line-height: 24px;
   /* Parte final */
-  margin: 0 30px auto;
+  margin: 20px 0 auto;
 }
 
 .card__footer {
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
