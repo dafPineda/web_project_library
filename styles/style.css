@@ -2,7 +2,7 @@
   /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
+  margin: 0;
   font-family: "Heveltica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -272,20 +272,21 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
-  margin-bottom: 28px;
   color: white;
 }
 
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 760px;
-  margin: auto;
+  margin: 0;
   padding: 0;
+  max-width: 760px;
   margin-top: 68px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
+  background: center;
+  list-style: none;
 }
 
 .card {
@@ -293,7 +294,6 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  list-style: none;
   width: 360px;
   height: 420px;
   flex-wrap: wrap;
