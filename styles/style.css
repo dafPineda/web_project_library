@@ -256,6 +256,7 @@
   padding: 100px 0 140px;
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .staff__title {
@@ -278,7 +279,7 @@
 
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
-  list-style: none;
+  list-style-type: none;
   max-width: 760px;
   margin: auto;
   padding: 0;
@@ -321,12 +322,15 @@
 }
 
 .card__text {
+  margin: 0;
+  margin: auto;
   font-size: 16px;
   line-height: 24px;
   /* Parte final */
 }
 
 .card__footer {
+  margin: 0;
   margin-top: auto;
   justify-content: flex-start;
   font-size: 14px;
