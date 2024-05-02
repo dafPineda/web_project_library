@@ -173,12 +173,12 @@
 }
 
 .events__more {
-  color: #2f80ed;
+  color: #000;
   text-decoration: none;
 }
 
 .events__more:hover {
-  color: #1f69c9;
+  color: #2f80ed;
 }
 
 .events__cover {
