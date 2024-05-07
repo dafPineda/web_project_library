@@ -173,7 +173,7 @@
 }
 
 .events__more {
-  color: #000;
+  color: #2f80ed;
   text-decoration: none;
 }
 
@@ -306,7 +306,7 @@
 .card__content {
   width: 100%;
   height: 100%;
-  /**/
+
   display: flex;
   flex-direction: column;
   font-family: "Heveltica Neue", "Arial", sans-serif;
@@ -336,7 +336,7 @@
   color: #838383;
 }
 
-/* .membership {
+/*.membership {
   padding: 100px 0 140px;
   background-color: #f2f2f2;
 
@@ -404,8 +404,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
-  /**/
+  z-index: 1; */
+/**/
 /* width: 154px; */
 /* margin-right: 120px; */
 /*}
