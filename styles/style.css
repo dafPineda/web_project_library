@@ -501,15 +501,12 @@
 
 .footer__column-link {
   display: flex;
+  color: #c1c1c1;
   font-size: 16px;
   line-height: 20px;
   align-items: center;
   text-decoration: none;
   column-gap: 10px;
-}
-
-.footer__column-link:hover {
-  color: #c1c1c1;
 }
 
 .footer__social-icon {
