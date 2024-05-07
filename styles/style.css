@@ -356,6 +356,7 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  column-gap: 40px;
   /* Agrega estilos */
   display: flex;
   flex-basis: auto;
@@ -364,8 +365,6 @@
 
 .step {
   /*Agrga estilos*/
-  margin-left: 40px;
-  /* flex-basis: 40px; */
   width: 220px;
 }
 
