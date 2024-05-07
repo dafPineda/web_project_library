@@ -355,19 +355,17 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: auto;
   margin: 100px 0 0;
   /* Agrega estilos */
   display: flex;
-  column-gap: auto;
-  /*flex-basis: auto;
-  justify-content: center; */
+  flex-basis: auto;
+  justify-content: center;
 }
 
 .step {
   /*Agrga estilos*/
   margin-left: 40px;
-  flex-basis: 40px;
+  /* flex-basis: 40px; */
   width: 220px;
 }
 
