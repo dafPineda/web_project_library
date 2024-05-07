@@ -337,10 +337,10 @@
   margin: 0;
 }
 
-/*.membership {
+.membership {
   padding: 100px 0 140px;
-  background-color: #f2f2f2;
-
+  background-color: #057bf2;
+  color: #fff;
 }
 
 .membership__title {
@@ -349,25 +349,23 @@
   text-align: center;
   font-size: 42px;
   font-weight: 500;
-  font-weight: bold;
   line-height: 52px;
 }
 
 .membership__steps {
   list-style-type: none;
-
   padding: 0;
   margin: auto;
   margin: 100px 0 0;
   /* Agrega estilos */
-/*display: flex;
+  display: flex;
   justify-content: center;
 }
 
 .step {
+  /*Agrga estilos*/
   margin-left: 40px;
   flex-basis: auto;
-
   width: 220px;
 }
 
@@ -388,14 +386,13 @@
   margin: 10px 0 0;
 }
 
-.about {
+/*.about {
   padding: 100px 80px;
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -405,8 +402,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1; */
-/**/
+  z-index: 1;
 /* width: 154px; */
 /* margin-right: 120px; */
 /*}
@@ -431,7 +427,7 @@
   position: absolute;
   left: -91px;
   top: -121px;
-}
+}*/
 
 .footer {
   box-sizing: border-box;
@@ -460,24 +456,24 @@
 /* .footer__column_content_social {
 }
  */
-/*.footer__logo {
+.footer__logo {
   height: 80px;
   width: 57px;
 }
 
 .footer__list {
   /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
-/*list-style-type: none;
+  list-style-type: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
   /*   display: flex; */
-/*}
+}
 
 .footer__list-item {
   /*flex-direction: row;
   justify-content: flex-start; */
-/*  margin: 0;
+  margin: 0;
   margin-left: 0;
 }
 
@@ -488,7 +484,7 @@
 .footer__list-social {
   display: flex;
   /*  justify-content: space-between; */
-/*}
+}
 
 .footer__list-social:hover {
   color: #c1c1c1;
@@ -522,4 +518,3 @@
   margin: 0;
   margin-top: 108px;
 }
- */
